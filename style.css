@@ -1,0 +1,107 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0px;;
+}
+section{
+    padding-bottom: 100px;
+    margin:30px 40px;
+    height:500px;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+  
+}
+h1.latest{
+    text-align: center;
+    font-size: 30px;
+}
+.orange-highlight{
+    color: rgb(129, 9, 69);
+}
+.first{
+    margin-top: 70px;
+
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    float: left;
+}
+.minihalf-width{
+    width: 30%;
+    float:left
+   
+
+}
+.minihalf-width img{
+    width: 100%;
+}
+
+p{
+    color:dimgray;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(129, 9, 69);
+    color:white;
+    font-size: 16px;
+    text-emphasis-style: inherit;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.biography{
+    background-image: url("images/biagraphy-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.second{
+    margin-top: 70px;
+}
+section.latestwork{
+    margin-top: 50px !important;
+}
+.latestwork{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+div.say{
+    text-align: center;
+    color: grey;
+    font-weight: 500;
+}
+div.contact{
+    text-align: center;
+    background-color: rgb(170, 15, 79);
+    color: white !important;
+    font-size: 18px;
+    padding: 20px;
+    margin: 40px 150px;
+    border-radius: 20px;
+}
+div.contact p{
+    color: white;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(48, 40, 40);
+    margin-bottom: 30px;
+}
